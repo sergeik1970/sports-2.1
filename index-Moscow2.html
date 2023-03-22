@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
+    <link rel="stylesheet" href="style-Moscow.css">
+    <title>Москва</title>
+</head>
+
+<body>
+
+    <section class="enter">
+
+        <div class="enter-button">
+            <form action="index.html">
+                <button>Вернуться</button>
+            </form>
+        </div>
+
+        <main>
+            <h1>Москва 2022</h1>
+    
+            <div class="gallery">
+    
+                <!-- В тег а пишется большая картинка -->
+    
+                <a href="images/Moscow2-4.1.jpg" class="image">
+                    <img src="images/Moscow2-4.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-5.1.jpg" class="image">
+                    <img src="images/Moscow2-5.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-1.1.jpg" class="image">
+                    <img src="images/Moscow2-1.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-7.1.jpg" class="image">
+                    <img src="images/Moscow2-7.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-9.1.jpg" class="image">
+                    <img src="images/Moscow2-9.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-3.1.jpg" class="image">
+                    <img src="images/Moscow2-3.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-2.1.jpg" class="image">
+                    <img src="images/Moscow2-2.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-8.1.jpg" class="image">
+                    <img src="images/Moscow2-8.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-10.1.jpg" class="image">
+                    <img src="images/Moscow2-10.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-11.1.jpg" class="image">
+                    <img src="images/Moscow2-11.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-12.1.jpg" class="image">
+                    <img src="images/Moscow2-12.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-13.1.jpg" class="image">
+                    <img src="images/Moscow2-13.1.jpg" width="500" alt="">
+                </a>
+
+                <a href="images/Moscow2-14.1.jpg" class="image">
+                    <img src="images/Moscow2-14.1.jpg" width="500" alt="">
+                </a>
+    
+            </div>
+        </main>
+    
+        <script>
+            $(".gallery").magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true,
+                    tCounter: '%curr% из %total%' // Markup for "1 of 7" counter
+                },
+                image: {
+                    tError: 'Картинка не найдена' // Error message when image could not be loaded
+                }
+            });
+        </script>
+
+</body>
+
+</html>

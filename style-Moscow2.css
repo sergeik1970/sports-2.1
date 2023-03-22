@@ -1,0 +1,73 @@
+.Moscow {
+    align-items: center;
+}
+
+body {
+    background-color: rgb(5, 83, 71);
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.enter-button button {
+    font-size: 20px;
+    background-color: rgba(0, 128, 0, 0.5);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px;
+    transition: 0.5s;
+    margin: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.enter-button button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 91, 0);
+    color: white;
+}
+
+.enter-button {
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img {
+    padding: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:1200px) {
+    
+    .gallery img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .gallery img {
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+    }
+}
